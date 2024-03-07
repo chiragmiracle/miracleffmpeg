@@ -2,13 +2,12 @@
 <resources>
     <style name="Theme.MyDemoApp" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="windowActionBar">true</item>
-        <item name="windowNoTitle">true</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/theme_clr</item>
+    </style>
+
+    <style name="SeekBar">
+        <item name="colorControlActivated">@color/theme_clr</item>
+        <item name="colorControlNormal">@color/black</item>
     </style>
 </resources>

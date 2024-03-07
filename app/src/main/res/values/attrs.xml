@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RangeSeekBar">
+        <attr name="absoluteMinValue" format="integer|float"/>
+        <attr name="absoluteMaxValue" format="integer|float"/>
+        <attr name="step" format="integer|float"/>
+        <attr name="singleThumb" format="boolean"/>
+        <attr name="showLabels" format="boolean"/>
+        <attr name="alwaysActive" format="boolean"/>
+        <attr name="valuesAboveThumbs" format="boolean"/>
+        <attr name="internalPadding" format="dimension"/>
+        <attr name="barHeight" format="dimension"/>
+        <attr name="defaultColor" format="color"/>
+        <attr name="activeColor" format="color"/>
+        <attr name="textAboveThumbsColor" format="color"/>
+        <attr name="thumbNormal" format="reference"/>
+        <attr name="thumbPressed" format="reference"/>
+        <attr name="thumbDisabled" format="reference"/>
+        <attr name="thumbShadow" format="boolean"/>
+        <attr name="thumbShadowColor" format="color"/>
+        <attr name="thumbShadowXOffset" format="dimension"/>
+        <attr name="thumbShadowYOffset" format="dimension"/>
+        <attr name="thumbShadowBlur" format="dimension"/>
+        <attr name="activateOnDefaultValues" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RangeSlider">
+        <attr name="lineHeight" format="dimension" />
+        <attr name="thumbWidth" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="maskColor" format="color" />
+        <attr name="tickCount" format="integer" />
+        <attr name="leftThumbIndex" format="integer" />
+        <attr name="rightThumbIndex" format="integer" />
+        <attr name="leftThumbDrawable" format="reference" />
+        <attr name="rightThumbDrawable" format="reference" />
+    </declare-styleable>
+</resources>
